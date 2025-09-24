@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1F6A8684-6ABC-7469-B5FD-107991ED2BB1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>c_language</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".idea\.gitignore" />
+    <Content Include=".idea\codeStyles\codeStyleConfig.xml" />
+    <Content Include=".idea\editor.xml" />
+    <Content Include=".idea\misc.xml" />
+    <Content Include=".idea\modules.xml" />
+    <Content Include=".idea\workspace.xml" />
+    <Content Include="arithmetic operators\a.exe" />
+    <Content Include="arithmetic operators\main.c" />
+    <Content Include="arithmetic operators\main.exe" />
+    <Content Include="arithmetic operators\output\main.exe" />
+    <Content Include="assignment operators\.idea\.gitignore" />
+    <Content Include="assignment operators\.idea\editor.xml" />
+    <Content Include="assignment operators\.idea\encodings.xml" />
+    <Content Include="assignment operators\.idea\misc.xml" />
+    <Content Include="assignment operators\.idea\modules.xml" />
+    <Content Include="assignment operators\.idea\workspace.xml" />
+    <Content Include="assignment operators\assignment.c" />
+    <Content Include="assignment operators\cmake-build-debug\.gitignore" />
+    <Content Include="assignment operators\cmake-build-debug\assignment_operators.exe" />
+    <Content Include="assignment operators\cmake-build-debug\CMakeCache.txt" />
+    <Content Include="assignment operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\a.exe" />
+    <Content Include="assignment operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\CMakeCCompilerId.c" />
+    <Content Include="assignment operators\cmake-build-debug\CMakeFiles\clion-Debug-log.txt" />
+    <Content Include="assignment operators\cmake-build-debug\CMakeFiles\clion-environment.txt" />
+    <Content Include="assignment operators\cmake-build-debug\CMakeFiles\TargetDirectories.txt" />
+    <Content Include="assignment operators\CMakeLists.txt" />
+    <Content Include="break statement\break.c" />
+    <Content Include="break statement\break.exe" />
+    <Content Include="break statement\practice qs 17\qs17.c" />
+    <Content Include="break statement\practice qs 17\qs17.exe" />
+    <Content Include="cmake-build-debug\.gitignore" />
+    <Content Include="cmake-build-debug\CMakeCache.txt" />
+    <Content Include="cmake-build-debug\CMakeFiles\4.0.2\CompilerIdCXX\a.exe" />
+    <Content Include="cmake-build-debug\CMakeFiles\4.0.2\CompilerIdCXX\CMakeCXXCompilerId.cpp" />
+    <Content Include="cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\a.exe" />
+    <Content Include="cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\CMakeCCompilerId.c" />
+    <Content Include="cmake-build-debug\CMakeFiles\clion-Debug-log.txt" />
+    <Content Include="cmake-build-debug\CMakeFiles\clion-environment.txt" />
+    <Content Include="cmake-build-debug\CMakeFiles\TargetDirectories.txt" />
+    <Content Include="CMakeLists.txt" />
+    <Content Include="comments\comments.c" />
+    <Content Include="conditional statements\condition.c" />
+    <Content Include="conditional statements\condition.exe" />
+    <Content Include="conditional statements\ternary.c" />
+    <Content Include="conditional statements\ternary.exe" />
+    <Content Include="continue statement\continue.c" />
+    <Content Include="continue statement\continue.exe" />
+    <Content Include="continue statement\practiceqs19.c" />
+    <Content Include="continue statement\practiceqs19.exe" />
+    <Content Include="continue statement\practiceqs20.c" />
+    <Content Include="continue statement\practiceqs20.exe" />
+    <Content Include="continue statement\practiceqs21.c" />
+    <Content Include="continue statement\practiceqs21.exe" />
+    <Content Include="continue statement\qs22.c" />
+    <Content Include="continue statement\qs22.exe" />
+    <Content Include="continue statement\qs23.c" />
+    <Content Include="continue statement\qs23.exe" />
+    <Content Include="functions\code.c" />
+    <Content Include="functions\code.exe" />
+    <Content Include="functions\function types\fun types.c" />
+    <Content Include="functions\functions.c" />
+    <Content Include="hello.c" />
+    <Content Include="increment\decrement\in\de.c" />
+    <Content Include="increment\decrement\in\de.exe" />
+    <Content Include="input\.idea\.gitignore" />
+    <Content Include="input\.idea\editor.xml" />
+    <Content Include="input\.idea\modules.xml" />
+    <Content Include="input\.idea\workspace.xml" />
+    <Content Include="input\a.exe" />
+    <Content Include="input\input.c" />
+    <Content Include="input\input.exe" />
+    <Content Include="instructions\a.exe" />
+    <Content Include="instructions\inst.c" />
+    <Content Include="instructions\inst.exe" />
+    <Content Include="logical operators\.idea\.gitignore" />
+    <Content Include="logical operators\.idea\editor.xml" />
+    <Content Include="logical operators\.idea\misc.xml" />
+    <Content Include="logical operators\.idea\modules.xml" />
+    <Content Include="logical operators\.idea\workspace.xml" />
+    <Content Include="logical operators\cmake-build-debug\.gitignore" />
+    <Content Include="logical operators\cmake-build-debug\CMakeCache.txt" />
+    <Content Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdCXX\a.exe" />
+    <Content Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdCXX\CMakeCXXCompilerId.cpp" />
+    <Content Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\a.exe" />
+    <Content Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\CMakeCCompilerId.c" />
+    <Content Include="logical operators\cmake-build-debug\CMakeFiles\clion-Debug-log.txt" />
+    <Content Include="logical operators\cmake-build-debug\CMakeFiles\clion-environment.txt" />
+    <Content Include="logical operators\cmake-build-debug\CMakeFiles\TargetDirectories.txt" />
+    <Content Include="logical operators\CMakeLists.txt" />
+    <Content Include="logical operators\logical.c" />
+    <Content Include="logical operators\logical.exe" />
+    <Content Include="loops\do while loop\dowhile.c" />
+    <Content Include="loops\do while loop\dowhile.exe" />
+    <Content Include="loops\do while loop\practice qs 15\qs15.c" />
+    <Content Include="loops\do while loop\practice qs 15\qs15.exe" />
+    <Content Include="loops\do while loop\practice qs 16\qs16.c" />
+    <Content Include="loops\do while loop\practice qs 16\qs16.exe" />
+    <Content Include="loops\for loop\forloop.c" />
+    <Content Include="loops\for loop\forloop.exe" />
+    <Content Include="loops\infinite loops\infinite.c" />
+    <Content Include="loops\infinite loops\infinite.exe" />
+    <Content Include="loops\loop.c" />
+    <Content Include="loops\loop.exe" />
+    <Content Include="loops\while loop\practice qs 14\a.exe" />
+    <Content Include="loops\while loop\practice qs 14\qs14.c" />
+    <Content Include="loops\while loop\practice qs 14\qs14.exe" />
+    <Content Include="loops\while loop\while.c" />
+    <Content Include="loops\while loop\while.exe" />
+    <Content Include="main.cpp" />
+    <Content Include="modular operator\main.c" />
+    <Content Include="modular operator\main.exe" />
+    <Content Include="Operator precedence\Associativity\associativity.c" />
+    <Content Include="Operator precedence\Associativity\associativity.exe" />
+    <Content Include="Operator precedence\op.c" />
+    <Content Include="Operator precedence\op.exe" />
+    <Content Include="Passing Arguments\code.c" />
+    <Content Include="Passing Arguments\code.exe" />
+    <Content Include="Passing Arguments\passingarg.c" />
+    <Content Include="Passing Arguments\passingarg.exe" />
+    <Content Include="pointers\code.c" />
+    <Content Include="pointers\code.exe" />
+    <Content Include="pointers\Function call\callbyrefe.c" />
+    <Content Include="pointers\Function call\code.c" />
+    <Content Include="pointers\Function call\code.exe" />
+    <Content Include="pointers\Function call\function call.c" />
+    <Content Include="pointers\pointer to pointer\code.c" />
+    <Content Include="pointers\pointer to pointer\code.exe" />
+    <Content Include="pointers\pointer to pointer\pointer.c" />
+    <Content Include="pointers\pointers.c" />
+    <Content Include="practice Qs\a.exe" />
+    <Content Include="practice Qs\practice Qs 11\qs11.c" />
+    <Content Include="practice Qs\practice Qs 11\qs11.exe" />
+    <Content Include="practice Qs\practice qs 12\qs12.c" />
+    <Content Include="practice Qs\practice qs 12\qs12.exe" />
+    <Content Include="practice Qs\practice qs 13\qs13.c" />
+    <Content Include="practice Qs\practice qs 13\qs13.exe" />
+    <Content Include="practice Qs\practice Qs 3\a.exe" />
+    <Content Include="practice Qs\practice Qs 3\pra.c" />
+    <Content Include="practice Qs\practice Qs 3\pra.exe" />
+    <Content Include="practice Qs\practice qs 4\qs4.c" />
+    <Content Include="practice Qs\practice qs 4\qs4.exe" />
+    <Content Include="practice Qs\practice qs 5\pra5.c" />
+    <Content Include="practice Qs\practice qs 5\pra5.exe" />
+    <Content Include="practice Qs\practice Qs 9\practice qs 10\pra10.c" />
+    <Content Include="practice Qs\practice Qs 9\practice qs 10\pra10.exe" />
+    <Content Include="practice Qs\practice Qs 9\praqs9.c" />
+    <Content Include="practice Qs\practice Qs 9\praqs9.exe" />
+    <Content Include="practice Qs\Qs1.c" />
+    <Content Include="practice Qs\Qs1.exe" />
+    <Content Include="practice Qs\Qs2.c" />
+    <Content Include="practice Qs\Qs2.exe" />
+    <Content Include="printf\a.exe" />
+    <Content Include="printf\romil.c" />
+    <Content Include="recursion\code.c" />
+    <Content Include="recursion\code.exe" />
+    <Content Include="recursion\recursio.c" />
+    <Content Include="relational operators\relation.c" />
+    <Content Include="relational operators\relation.exe" />
+    <Content Include="switch case\switch properties\switchprop.c" />
+    <Content Include="switch case\switch properties\switchprop.exe" />
+    <Content Include="switch case\switch.c" />
+    <Content Include="switch case\switch.exe" />
+    <Content Include="type conversion\type.c" />
+    <Content Include="type conversion\type.exe" />
+    <Content Include="variables\data types\datatypes.c" />
+    <Content Include="variables\variables.c" />
+    <Content Include="variables\variables.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".idea\c language.iml" />
+    <None Include=".idea\untitled.iml" />
+    <None Include=".vscode\c_cpp_properties.json" />
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\settings.json" />
+    <None Include=".vscode\tasks.json" />
+    <None Include=".vs\c language.slnx\FileContentIndex\0ec75245-fd31-423b-9d3a-936e71d86db4.vsidx" />
+    <None Include=".vs\c language.slnx\v18\.wsuo" />
+    <None Include=".vs\c language.slnx\v18\DocumentLayout.backup.json" />
+    <None Include=".vs\c language.slnx\v18\DocumentLayout.json" />
+    <None Include=".vs\c language\CopilotIndices\18.0.720.40909\CodeChunks.db" />
+    <None Include=".vs\c language\CopilotIndices\18.0.720.40909\SemanticSymbols.db" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="assignment operators\.idea\.name" />
+    <None Include="assignment operators\.idea\assignment operators.iml" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\query\cache-v2" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\query\cmakeFiles-v1" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\query\codemodel-v2" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\query\toolchains-v1" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\reply\cache-v2-5616b8848a457b5f824d.json" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\reply\cmakeFiles-v1-64b4bd5a2f15733292e1.json" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\reply\codemodel-v2-c5c969396e5e21a7ae3a.json" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\reply\directory-.-Debug-d0094a50bb2071803777.json" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\reply\index-2025-09-10T16-15-47-0391.json" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\reply\target-assignment_operators-Debug-272f06dc25683c60ac96.json" />
+    <None Include="assignment operators\cmake-build-debug\.cmake\api\v1\reply\toolchains-v1-1919a540fa8a39817f61.json" />
+    <None Include="assignment operators\cmake-build-debug\.ninja_deps" />
+    <None Include="assignment operators\cmake-build-debug\.ninja_log" />
+    <None Include="assignment operators\cmake-build-debug\build.ninja" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeCCompiler.cmake" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeDetermineCompilerABI_C.bin" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeRCCompiler.cmake" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeSystem.cmake" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\assignment_operators.dir\assignment.c.obj" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\cmake.check_cache" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\CMakeConfigureLog.yaml" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\InstallScripts.json" />
+    <None Include="assignment operators\cmake-build-debug\CMakeFiles\rules.ninja" />
+    <None Include="assignment operators\cmake-build-debug\cmake_install.cmake" />
+    <None Include="assignment operators\cmake-build-debug\Testing\Temporary\LastTest.log" />
+    <None Include="cmake-build-debug\.cmake\api\v1\query\cache-v2" />
+    <None Include="cmake-build-debug\.cmake\api\v1\query\cmakeFiles-v1" />
+    <None Include="cmake-build-debug\.cmake\api\v1\query\codemodel-v2" />
+    <None Include="cmake-build-debug\.cmake\api\v1\query\toolchains-v1" />
+    <None Include="cmake-build-debug\.cmake\api\v1\reply\cache-v2-a1f126c62f45a27e9dd3.json" />
+    <None Include="cmake-build-debug\.cmake\api\v1\reply\cmakeFiles-v1-cf5c5bef659bdaaeb114.json" />
+    <None Include="cmake-build-debug\.cmake\api\v1\reply\codemodel-v2-c515e870a87f38ba1e68.json" />
+    <None Include="cmake-build-debug\.cmake\api\v1\reply\directory-.-Debug-d0094a50bb2071803777.json" />
+    <None Include="cmake-build-debug\.cmake\api\v1\reply\index-2025-09-10T15-49-51-0970.json" />
+    <None Include="cmake-build-debug\.cmake\api\v1\reply\target-untitled-Debug-44a28d8f355e95130bfe.json" />
+    <None Include="cmake-build-debug\.cmake\api\v1\reply\toolchains-v1-3b5cefea730e403fc077.json" />
+    <None Include="cmake-build-debug\build.ninja" />
+    <None Include="cmake-build-debug\CMakeFiles\4.0.2\CMakeCCompiler.cmake" />
+    <None Include="cmake-build-debug\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake" />
+    <None Include="cmake-build-debug\CMakeFiles\4.0.2\CMakeDetermineCompilerABI_C.bin" />
+    <None Include="cmake-build-debug\CMakeFiles\4.0.2\CMakeDetermineCompilerABI_CXX.bin" />
+    <None Include="cmake-build-debug\CMakeFiles\4.0.2\CMakeRCCompiler.cmake" />
+    <None Include="cmake-build-debug\CMakeFiles\4.0.2\CMakeSystem.cmake" />
+    <None Include="cmake-build-debug\CMakeFiles\cmake.check_cache" />
+    <None Include="cmake-build-debug\CMakeFiles\CMakeConfigureLog.yaml" />
+    <None Include="cmake-build-debug\CMakeFiles\InstallScripts.json" />
+    <None Include="cmake-build-debug\CMakeFiles\rules.ninja" />
+    <None Include="cmake-build-debug\cmake_install.cmake" />
+    <None Include="cmake-build-debug\Testing\Temporary\LastTest.log" />
+    <None Include="input\.idea\input.iml" />
+    <None Include="logical operators\.idea\.name" />
+    <None Include="logical operators\.idea\logical operators.iml" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\query\cache-v2" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\query\cmakeFiles-v1" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\query\codemodel-v2" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\query\toolchains-v1" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\reply\cache-v2-005120bc1e380063cacd.json" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\reply\cmakeFiles-v1-f7a3dbd7dfce991d4bd6.json" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\reply\codemodel-v2-f1a0b2467b338539fd47.json" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\reply\directory-.-Debug-d0094a50bb2071803777.json" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\reply\index-2025-09-10T15-39-35-0797.json" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\reply\target-logical_operators-Debug-1dab4efa28ec51ce6227.json" />
+    <None Include="logical operators\cmake-build-debug\.cmake\api\v1\reply\toolchains-v1-3b5cefea730e403fc077.json" />
+    <None Include="logical operators\cmake-build-debug\build.ninja" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeCCompiler.cmake" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeCXXCompiler.cmake" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeDetermineCompilerABI_C.bin" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeDetermineCompilerABI_CXX.bin" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeRCCompiler.cmake" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CMakeSystem.cmake" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\cmake.check_cache" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\CMakeConfigureLog.yaml" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\InstallScripts.json" />
+    <None Include="logical operators\cmake-build-debug\CMakeFiles\rules.ninja" />
+    <None Include="logical operators\cmake-build-debug\cmake_install.cmake" />
+    <None Include="logical operators\cmake-build-debug\Testing\Temporary\LastTest.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\c language.slnx\copilot-chat\94a00f10\sessions\" />
+    <Folder Include="assignment operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\tmp\" />
+    <Folder Include="assignment operators\cmake-build-debug\CMakeFiles\CMakeScratch\" />
+    <Folder Include="assignment operators\cmake-build-debug\CMakeFiles\pkgRedirects\" />
+    <Folder Include="cmake-build-debug\CMakeFiles\4.0.2\CompilerIdCXX\tmp\" />
+    <Folder Include="cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\tmp\" />
+    <Folder Include="cmake-build-debug\CMakeFiles\pkgRedirects\" />
+    <Folder Include="cmake-build-debug\CMakeFiles\untitled.dir\logical_operators\" />
+    <Folder Include="conditional statements\ternary op\" />
+    <Folder Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdCXX\tmp\" />
+    <Folder Include="logical operators\cmake-build-debug\CMakeFiles\4.0.2\CompilerIdC\tmp\" />
+    <Folder Include="logical operators\cmake-build-debug\CMakeFiles\CMakeScratch\" />
+    <Folder Include="logical operators\cmake-build-debug\CMakeFiles\logical_operators.dir\" />
+    <Folder Include="logical operators\cmake-build-debug\CMakeFiles\pkgRedirects\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
